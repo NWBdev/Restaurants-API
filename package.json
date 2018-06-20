@@ -9,7 +9,6 @@
     "start": "NODE_ENV=production pm2 start dist",
     "prestart": "npm run -s build",
     "lint": "eslint src",
-
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "eslintConfig": {
